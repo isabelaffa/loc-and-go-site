@@ -1,0 +1,47 @@
+:root {
+    --dark-orange: #FD9228;
+    --green-blue: #2364AA;
+    --piction-blue: #3DA5D9;
+    --anti-flash-white: #EBEBEB;
+    --mint: #03CEA4;
+    --white: #FFF;
+    --black: #000;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.login-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#welcome {
+    padding-bottom: 20px;
+}
+
+.login-box {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 40%;
+}
+
+#login-btn {
+    margin-top: 20px;
+    padding: 10px;
+    width: 150px;
+    background-color: var(--green-blue);
+}
+
+.logo {
+    margin-bottom: 20px;
+}
